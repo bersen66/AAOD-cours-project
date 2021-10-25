@@ -1,0 +1,3 @@
+"D:\CLION\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\COURS.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\COURS.dir/objects.a @CMakeFiles\COURS.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -static-libgcc -static-libstdc++ -Wl,--whole-archive CMakeFiles\COURS.dir/objects.a -Wl,--no-whole-archive -o COURS.exe -Wl,--out-implib,libCOURS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\COURS.dir\linklibs.rsp
